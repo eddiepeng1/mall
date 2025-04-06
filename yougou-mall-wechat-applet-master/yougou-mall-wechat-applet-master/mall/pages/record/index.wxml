@@ -1,0 +1,4 @@
+<view class="container">
+  <textarea placeholder="请输入工作记录" bindinput="bindInput"></textarea>
+  <button bindtap="uploadRecord">上传记录</button>
+</view>
