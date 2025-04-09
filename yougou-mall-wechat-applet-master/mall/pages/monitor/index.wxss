@@ -1,0 +1,6 @@
+.container {
+  padding: 20rpx;
+}
+.data-item {
+  margin-bottom: 20rpx;
+}

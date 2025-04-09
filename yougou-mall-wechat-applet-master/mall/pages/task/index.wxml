@@ -1,0 +1,7 @@
+<view class="container">
+  <block wx:for="{{tasks}}" wx:key="id">
+    <view class="task-item">
+      <text>{{item.name}} - {{item.status}}</text>
+    </view>
+  </block>
+</view>
