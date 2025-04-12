@@ -1,0 +1,6 @@
+<view>
+  <!-- 导航按钮 -->
+  <button bindtap="navigateToTask">任务分配</button>
+  <button bindtap="navigateToRecord">工作记录</button>
+  <button bindtap="navigateToMonitor">生产监控</button>
+</view>

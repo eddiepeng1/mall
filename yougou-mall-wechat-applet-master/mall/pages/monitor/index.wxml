@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="data-item">
+    <text>温度: {{data.temperature}} °C</text>
+  </view>
+  <view class="data-item">
+    <text>湿度: {{data.humidity}} %</text>
+  </view>
+</view>

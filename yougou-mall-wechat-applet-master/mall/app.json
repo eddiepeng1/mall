@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/collect/index",
+    "pages/user/index",
+    "pages/login/index",
+    "pages/task/index",         
+    "pages/record/index",       
+    "pages/monitor/index"       
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "智慧农业",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home.png"
+      },
+      {
+        "pagePath": "pages/task/index",
+        "text": "任务",
+        "iconPath": "icons/task.png",
+        "selectedIconPath": "icons/task-o.png"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "text": "记录",
+        "iconPath": "icons/record.png",
+        "selectedIconPath": "icons/record-o.png"
+      },
+      {
+        "pagePath": "pages/monitor/index",
+        "text": "监控",
+        "iconPath": "icons/monitor.png",
+        "selectedIconPath": "icons/monitor-o.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my-o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
